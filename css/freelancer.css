@@ -503,3 +503,19 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+.input-light{
+    color:#fff;
+}
+.input-light::-webkit-input-placeholder{
+    color:#d2d3d5;
+}
+.sqr-btn{
+    border-radius:0;
+}
+.vi-6x{
+    font-size:6em;
+}
+.vi-padding-lg{
+    padding-right:25px;
+    padding-left:25px;
+}
