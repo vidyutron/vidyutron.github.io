@@ -4,3 +4,4 @@
 
 *.sln
 /.vs/vidyutron.github.io/v14
+/node_modules
