@@ -10,22 +10,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var UFPage_component_1 = require('./UFPage/UFPage.component');
-var profile_component_1 = require('./Profile/profile.component');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.testBinding = 'angular2 Injection';
+var ProfileComponent = (function () {
+    function ProfileComponent() {
     }
-    AppComponent = __decorate([
+    ProfileComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: 'app/app.component.html',
-            directives: [router_1.ROUTER_DIRECTIVES, profile_component_1.ProfileComponent],
-            precompile: [UFPage_component_1.UFPageComponent]
+            selector: 'my-profile',
+            templateUrl: 'app/Profile/profile.component.html',
+            directives: [router_1.ROUTER_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], ProfileComponent);
+    return ProfileComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.ProfileComponent = ProfileComponent;
+//# sourceMappingURL=profile.component.js.map

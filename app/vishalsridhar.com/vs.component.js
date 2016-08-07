@@ -9,23 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
-var UFPage_component_1 = require('./UFPage/UFPage.component');
-var profile_component_1 = require('./Profile/profile.component');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.testBinding = 'angular2 Injection';
+var VSComponent = (function () {
+    function VSComponent() {
+        this.pageTitle = 'vishalsridhar.com';
     }
-    AppComponent = __decorate([
+    VSComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: 'app/app.component.html',
-            directives: [router_1.ROUTER_DIRECTIVES, profile_component_1.ProfileComponent],
-            precompile: [UFPage_component_1.UFPageComponent]
+            templateUrl: 'app/vishalsridhar/vs.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], VSComponent);
+    return VSComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.VSComponent = VSComponent;
+//# sourceMappingURL=vs.component.js.map

@@ -9,23 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
-var UFPage_component_1 = require('./UFPage/UFPage.component');
-var profile_component_1 = require('./Profile/profile.component');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.testBinding = 'angular2 Injection';
+var UFPageComponent = (function () {
+    function UFPageComponent() {
+        this.pageTitle = 'UnifiedFramework';
     }
-    AppComponent = __decorate([
+    UFPageComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: 'app/app.component.html',
-            directives: [router_1.ROUTER_DIRECTIVES, profile_component_1.ProfileComponent],
-            precompile: [UFPage_component_1.UFPageComponent]
+            templateUrl: 'app/UFPage/UFPage.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], UFPageComponent);
+    return UFPageComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.UFPageComponent = UFPageComponent;
+//# sourceMappingURL=UFPage.component.js.map

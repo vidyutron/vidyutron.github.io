@@ -9,23 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
-var UFPage_component_1 = require('./UFPage/UFPage.component');
-var profile_component_1 = require('./Profile/profile.component');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.testBinding = 'angular2 Injection';
+var Sipv2Component = (function () {
+    function Sipv2Component() {
+        this.pageTitle = 'sipv2';
     }
-    AppComponent = __decorate([
+    Sipv2Component = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: 'app/app.component.html',
-            directives: [router_1.ROUTER_DIRECTIVES, profile_component_1.ProfileComponent],
-            precompile: [UFPage_component_1.UFPageComponent]
+            templateUrl: 'app/sipv2/sipv2.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], Sipv2Component);
+    return Sipv2Component;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.Sipv2Component = Sipv2Component;
+//# sourceMappingURL=sipv2.component.js.map
