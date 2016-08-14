@@ -9,17 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var VSComponent = (function () {
-    function VSComponent() {
-        this.pageTitle = 'vishalsridhar.com';
+var ProfileService = (function () {
+    function ProfileService() {
     }
-    VSComponent = __decorate([
-        core_1.Component({
-            templateUrl: 'app/vishalsridhar.com/vs.component.html'
-        }), 
+    ProfileService = __decorate([
+        core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], VSComponent);
-    return VSComponent;
+    ], ProfileService);
+    return ProfileService;
 }());
-exports.VSComponent = VSComponent;
-//# sourceMappingURL=vs.component.js.map
+exports.ProfileService = ProfileService;
+//# sourceMappingURL=profile.service.js.map
