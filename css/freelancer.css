@@ -200,6 +200,9 @@ section.success {
   background: #0481C4;
   color: white;
 }
+section.dark{
+    background:#2C3E50;color:#fff;
+}
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
@@ -537,19 +540,23 @@ fieldset[disabled] .btn-success.active {
     font-size:5em;
 }
 .flat-tag{
-    padding:5px;
-    margin-top:5px;
+    padding:10px;
+    /*margin-top:5px;*/
     background-color:#0481C4;
     color:#fff;
-    margin-left:5px;  
+    margin-left:5px;
 }
-.flat-tag:hover{
+.flat-tag>a{
+    color:#fff;
+        font-size:1em;
+}
+.flat-tag>a:hover{
     color:#fff;
     text-decoration:none;
     cursor:pointer;
 }
 .font-medium{
-    font-size:1.2em;
+    font-size:1.6em;
     padding:5px;
 }
 .linkin-font{
