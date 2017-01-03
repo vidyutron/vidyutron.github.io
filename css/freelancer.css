@@ -575,6 +575,9 @@ fieldset[disabled] .btn-success.active {
     top: 50%;
     line-height: 0;
 }
-.cert-badges{
-    
+.btn{
+    border-radius:0;
+}
+.btninner-text{
+    font-size:24px;
 }
